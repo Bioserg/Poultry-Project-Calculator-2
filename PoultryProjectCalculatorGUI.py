@@ -16,9 +16,9 @@ with open(fileName, accessMode) as myFile :
         if c.get() == 'USD':
             TotalCost = Var.get() * 5
         elif c.get() == 'Bond' :
-            TotalCost = Var.get() * 80
+            TotalCost = Var.get() * 400
         elif c.get() == 'EcoCash' :
-            TotalCost = Var.get() * 90
+            TotalCost = Var.get() * 450
 
         messagebox.showinfo("Sue's Chickens Calculator", "Thank you " + n.get() + " " + m.get() + " " + s.get() + " for shopping at Sue's Chickens! The cost for your %d chickens will be " %Var.get() + "%d"%TotalCost + " " + c.get() + ".")
         #res = 'Welcome to ' +  entry_widget1.get()
